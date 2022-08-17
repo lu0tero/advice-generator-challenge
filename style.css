@@ -103,6 +103,40 @@ body {
     }
 
     .pattern-container {
+        content: url("images/pattern-divider-mobile.svg");
+    }
+    
+    .dice-container {
+        top: 60px;
+    }
+    
+    .dice-container:hover {
+        cursor: pointer;
+    }
+    
+    .dice-container img {
+        position: relative;
+        top: 3px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .advice-card {
+        padding: 35px 15px;
+        width: 30%;
+    }
+
+    .advice-card h1 {
+        font-size: 14px;
+        padding: 10px 0 25px 0;
+    }
+    
+    .advice-card p {
+        font-size: 27px;
+        padding: 0px 20px 30px 20px;
+    }
+
+    .pattern-container {
         content: url("/images/pattern-divider-desktop.svg");
     }
     
